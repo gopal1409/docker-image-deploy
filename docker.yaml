@@ -8,7 +8,7 @@
     
   tasks:
     - name: login to nexus pvt repo 
-        docker_login:
+      docker_login:
         registry: http://54.243.105.5:8085
         username: admin 
         password: hetal123
